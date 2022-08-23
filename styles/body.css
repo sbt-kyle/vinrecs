@@ -160,7 +160,7 @@
 }
 
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 580px) {
     .tasks-list p{
     width: 100%;
     
@@ -174,8 +174,8 @@
 .right-buttons {
     display: flex;
     width: 100%;
-    justify-content: space-between;
-    gap: 12px;
+    justify-content: space-around;
+    gap: 7px;
 }
     .undo {
         width: 145px;
