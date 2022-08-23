@@ -1,0 +1,188 @@
+.body-section-1 {
+    margin: 20px 70px;
+    border-radius: 5px;
+    display: grid;
+    grid-template-columns: 1fr 100px;
+    column-gap: 7px;
+}
+
+.text-box {
+    background-color: rgb(19, 18, 18);
+    height: 80px;
+    border: 1px rgb(56, 54, 54) solid ;
+    border-radius: 5px;
+    color: white;
+
+}
+
+.text-box::placeholder {
+    padding-left: 10px;
+}
+
+.create-btn {
+    background-color: rgb(228, 105, 60);
+    color: rgb(226, 214, 214);
+    border-radius: 5px;
+    font-size: 14px;
+    font-weight: 600;
+    cursor: pointer;
+    border: none;
+}
+
+.create-btn:hover {
+    opacity: 0.6;
+}
+
+.body-section-2 {
+    display: grid;
+    grid-template-columns: 500px 500px;
+    margin: 50px 70px;
+    padding: 20px 20px 40px 20px;
+    justify-content: space-between;
+}
+
+.body-left-section h1{
+    font-size: 20px;
+    margin-bottom: 30px;
+}
+
+.tasks-list {
+    border-bottom: 1px rgb(56, 54, 54) solid ;
+    display: flex;
+    overflow-wrap: break-word;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.tasks-list p{
+    width: 80%;
+    margin-right: 5px;
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+
+.tasks-list .done {
+    background-color: rgb(228, 105, 60);
+    padding: 4px 8px;
+    border-radius: 5px;
+    cursor: pointer;
+    border: none;
+    margin-bottom: 10px;    
+}
+
+.tasks-list .done:hover {
+    opacity: 0.6;
+}
+
+.tasks-list input {
+    margin: 0 15px;
+    margin-bottom: 10px;
+}
+
+.body-right-section h1{
+    font-size: 20px;
+    margin-bottom: 30px;
+}
+
+.tasks-list2 {
+    border-bottom: 1px rgb(56, 54, 54) solid ;
+    display: flex;
+    overflow-wrap: break-word;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.tasks-list2 p{
+    width: 78%;
+    margin-right: 5px;
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+
+
+.tasks-list2 input {
+    margin: 0 15px;
+    margin-bottom: 10px;
+}
+
+
+.right-buttons {
+    width: 60px;
+    margin-bottom: 10px;
+}
+
+.undo {
+    width: 60px;
+    color: white;
+    background-color: rgb(68, 5, 68);
+    border-radius: 5px;
+    cursor: pointer;
+    border: none;
+}
+
+.undo:hover {
+    opacity: 0.6;
+}
+
+.delete {
+    width: 60px;
+    background-color: red;
+    padding: 0 3px;
+    border-radius: 5px;
+    cursor: pointer;
+    border: none;
+}
+
+.delete:hover {
+    opacity: 0.6;
+}
+
+@media screen and (max-width: 1180px) {
+    .body-section-2 {
+        display: block;
+    }
+
+    .body-right-section {
+        margin-top: 50px;
+    }
+
+    .tasks-list p{
+        width: 80%;
+    }
+
+    .tasks-list {
+        justify-content: space-between;
+    }
+
+    .tasks-list2 {
+        justify-content: space-between;
+    }
+}
+
+
+@media screen and (max-width: 480px) {
+    .tasks-list p{
+    width: 100%;
+    
+}
+
+.tasks-list2 {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.right-buttons {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    gap: 12px;
+}
+    .undo {
+        width: 145px;
+    }
+
+    .delete {
+        width: 145px;
+    }
+
+}
