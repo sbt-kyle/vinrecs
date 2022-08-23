@@ -186,3 +186,18 @@
     }
 
 }
+
+@media screen and (max-width: 400px) {
+
+.tasks-list2 p{
+    width: 70%;
+    }
+}
+
+@media screen and (max-width: 340px) {
+
+    .tasks-list2 p{
+        width: 50%;
+        }
+    }
+
