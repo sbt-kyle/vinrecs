@@ -217,7 +217,7 @@
     }
 }
 
-@media screen and (max-width: 340px) {
+@media screen and (max-width: 400px) {
     .header {
         padding: 0 20px;
     }
@@ -245,6 +245,15 @@
 
     .body-left-section h1{
     font-size: 18px;
+    }
+
+    .body-section-1 {
+        grid-template-columns: 1fr;
+        row-gap: 10px;
+    }
+
+    .create-btn {
+        height: 40px;
     }
 }
 
@@ -278,6 +287,10 @@
     .body-left-section h1, .body-right-section h1{
         font-size: 16px;
         }
+
+    .create-btn {
+        height: 30px;
+    }
 }
 
 @media screen and (max-width: 250px) {
